@@ -1,2 +1,6 @@
-.DS_Store
+initial-template/
+
+.sass-cache
+
 *.swp
+.DS_Store
