@@ -8,3 +8,23 @@
 .font-weight-bolder {
   font-weight: $font-weight-bolder;
 }
+
+.bg-gray {
+  background-color: $gray-500 !important;
+}
+.bg-black {
+  background-color: $gray-700 !important;
+}
+
+.align-bullets li {
+  list-style-position: inside;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.img-shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
