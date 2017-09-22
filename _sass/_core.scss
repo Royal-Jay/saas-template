@@ -28,3 +28,34 @@
 .img-shadow {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
 }
+
+.text-spaced {
+  letter-spacing: 5px;
+}
+
+.star-bullets {
+  list-style: none;
+}
+.star-bullets li:before {
+  color: #6caae4;
+  margin: 0 5px 0 -20px;
+  font-family: 'FontAwesome';
+  content: '\f005';
+}
+
+.border-overlap {
+  position: absolute;
+  right: 50%;
+  bottom: -38px;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  width: 150px;
+}
+
+#most-popular {
+  position:absolute;
+  width: 100%;
+  top: -54px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
