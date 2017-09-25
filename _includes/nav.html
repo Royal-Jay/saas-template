@@ -1,7 +1,7 @@
     <nav class="navbar navbar-expand-md p-4 navbar-light bg-light border border-top-0 border-right-0 border-left-0">
       <div class="container">
 
-        <a class="navbar-brand nav-item mx-2 h5 text-uppercase font-weight-bolder" href="/">
+        <a class="navbar-brand nav-item mx-2 h5 text-uppercase font-weight-bolder" href="./">
           Your Logo
         </a>
 
@@ -16,7 +16,7 @@
             {% for p in pages %}
               {% if p.url != '/' %}
                 <li class="nav-item mx-3 {% if p.url == page.url %}active{% endif %}">
-                  <a class="nav-link" href="{{ p.path }}">{{ p.title }}</a>
+                  <a class="nav-link" href=".{{ p.url }}">{{ p.title }}</a>
                 </li>
               {% endif %}
             {% endfor %}
