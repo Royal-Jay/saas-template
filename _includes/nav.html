@@ -14,7 +14,7 @@
           <ul class="navbar-nav font-weight-light">
             {% assign pages = site.pages | sort: 'order' %}
             {% for p in pages %}
-              {% if p.url != '/' %}
+              {% if p.url != '/' and p.hide != true %}
                 <li class="nav-item mx-3 {% if p.url == page.url %}active{% endif %}">
                   <a class="nav-link" href=".{{ p.url }}">{{ p.title }}</a>
                 </li>
