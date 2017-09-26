@@ -2,6 +2,10 @@
 
 @import "vendor/bootstrap-4.0.0-beta/bootstrap.scss";
 
+.btn-primary {
+  color: $white !important;
+}
+
 .font-weight-light {
   font-weight: $font-weight-light;
 }
@@ -65,4 +69,12 @@
 
 h3.text-primary, h4.text-primary {
   color: #5F8FBB !important;
+}
+
+.docs-section {
+  margin-top: 200px;
+}
+.docs-section .page-header {
+  margin-bottom: 75px;
+  border-bottom: 1px solid #ccc;
 }
